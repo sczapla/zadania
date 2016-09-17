@@ -5,17 +5,22 @@
  */
 package zad1;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Tomek
  */
-public class Zad1 {
+public class Zad11 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        String input = JOptionPane.showInputDialog("Wpisz ciąg znaków.");
+        String inputUpper = input.toUpperCase();
+        JOptionPane.showMessageDialog(null, "Zmienony ciąg znaków: " + inputUpper);
+        System.exit(0);
     }
     
 }
