@@ -21,11 +21,11 @@ public class Zad62 {
             w1.join();
             w2.join();
         } catch (InterruptedException e) {
-        };
-        Object ob = k.odbierz();
-        while (k != null) {
+        }
+        Object ob = k.odbierz("5");
+        while (k != null && ob != null) {
             System.out.println(((Integer) ob).toString());
-            ob = k.odbierz();
+            ob = k.odbierz("8");
         }
     }
 
