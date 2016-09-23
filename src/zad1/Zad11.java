@@ -7,10 +7,7 @@ package zad1;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Tomek
- */
+
 public class Zad11 {
 
     /**

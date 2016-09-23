@@ -9,10 +9,7 @@ import java.io.IOException;
 import java.math.BigInteger;
 import java.util.Scanner;
 
-/**
- *
- * @author Tomek
- */
+
 public class Zad12 {
 
     private static BigInteger silnia(BigInteger i) {
