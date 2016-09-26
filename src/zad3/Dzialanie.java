@@ -14,7 +14,7 @@ public class Dzialanie extends Wierzcholek {
     private final char op; // operator +, -, / lub * 
 
     public Dzialanie(char znak) throws Exception{
-        if(znak != '-' && znak != '+' && znak != '*' && znak != '*'){
+        if(znak != '-' && znak != '+' && znak != '*' && znak != '/'){
             throw new NiepoprawnaSkladnia("Niepoprawne dzialanie: " + znak);
         }
         op = znak;
